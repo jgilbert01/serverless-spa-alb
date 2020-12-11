@@ -1,0 +1,35 @@
+{
+  "name": "serverless-spa-alb",
+  "version": "1.0.0",
+  "description": "Serverless plugin to configure S3, ALB and Route53 for a private SPA site.",
+  "author": "John Gilbert",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgilbert01/serverless-spa-alb.git"
+  },
+  "keywords": [
+    "serverless",
+    "serverless plugin",
+    "alb",
+    "route53",
+    "s3",
+    "spa",
+    "jamstack",
+    "aws",
+    "amazon web services",
+    "serverless.com"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "js-yaml": "^3.10.0",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
